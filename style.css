@@ -706,4 +706,9 @@ main {
     .rate__item_white {
         font-size: 12px;
     }
+
+    .footer__icon_rss,
+    .footer__icon_tw {
+        margin-top: 0;
+    }
 }
