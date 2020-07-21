@@ -261,7 +261,12 @@ main {
 
 .header {
     width: 80%;
+    padding-top: 108px;
     text-align: center;
+}
+
+.header_p-76 {
+    padding-top: 76px;
 }
 
 .header__title {
@@ -354,10 +359,6 @@ main {
     background-color: #f5f5f5;
 }
 
-.header_padding-top {
-    padding-top: 108px;
-}
-
 .rate {
     width: 80%;
     display: flex;
@@ -368,8 +369,8 @@ main {
 
 .rate__list {
    width: 30%;
-   margin-bottom: 96px;
-   padding: 0;
+   padding-bottom: 96px;
+   padding-left: 0;
    font-family: "Open Sans", sans-serif;
    text-align: center;
    list-style-type: none;
@@ -458,8 +459,7 @@ main {
     background-repeat: no-repeat;
 }
 
-.header__title_white-padding {
-    padding-top: 76px;
+.header__title_white {
     color: white;
 }
 
@@ -481,10 +481,6 @@ main {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-}
-
-.header__title_padding {
-    padding-top: 108px;
 }
 
 .header__text_padding {
@@ -678,12 +674,24 @@ main {
         font-size: 22px;
     }
 
+    .card__text,
+    .rate__list {
+        padding-bottom: 40px;
+    }
+
+    .form__submit_btn-size {
+        margin-bottom: 40px;
+    }
 
 }
 
 @media all and (max-width: 576px) {
     .social__icon {
         margin-right: 10px;
+        margin-bottom: 15px;
+    }
+
+    .social__btn {
         justify-content: center;
     }
 
