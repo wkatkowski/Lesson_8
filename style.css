@@ -637,7 +637,7 @@ main {
     }
 
     .logo_m-20 {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .content-info {
@@ -658,12 +658,12 @@ main {
     }
 
     .btn-download {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .form {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .header {
@@ -683,6 +683,9 @@ main {
         margin-bottom: 40px;
     }
 
+    .card__title {
+        font-size: 16px;
+    }
 }
 
 @media all and (max-width: 576px) {
@@ -695,19 +698,26 @@ main {
         justify-content: center;
     }
 
-    .rate__item_size {
-        font-size: 16px;
-    }
-
     .rate__item_font {
-        font-size: 50px;
+        padding: 0;
     }
 
-    .rate__item_white {
-        font-size: 12px;
+    .card,
+    .rate__list {
+        width: 45%;
+        margin: 0 auto;
     }
 
-    .footer__icon_rss,
+}
+
+@media all and (max-width: 494px) {
+    .footer__icon_rss {
+        margin-top: 0;
+    }
+
+}
+
+@media all and (max-width: 421px) {
     .footer__icon_tw {
         margin-top: 0;
     }
