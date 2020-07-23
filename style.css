@@ -744,9 +744,7 @@ main {
         visibility: hidden;
         top: 0;
         left: -100%;
-      
         padding-top: 40px;
-      
         background-color: black;
         transition-duration: .25s;
       }
